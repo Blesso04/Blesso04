@@ -1,0 +1,138 @@
+@media screen and (max-width:600px) {
+    .view{
+        display: none;
+    }
+    .Mission{
+      text-align: center;
+     }
+    .font{
+        width: 75%;
+    }
+    .cont{
+        overflow: hidden;
+      }
+      .Yes{
+        display: flex;
+        justify-self: center;
+        margin-top: 120px;
+      }
+      .Capture{
+        background-position-y: 50%;
+        background: #14394c;
+        border-radius: 10px;
+        height: 766px;
+     }
+    
+      .today{
+        text-align: center;
+      }
+      .button1{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 8%;
+      }
+      .interact{
+        text-align: center;
+      }
+}
+@media screen and (max-width:1500px) {
+    .Capture{
+        background-position-y: 50%;
+        background: #14394c;
+        border-radius: 10px;
+     }
+     .data{
+        width: 10px;
+height: 5px;
+top: 13px;
+     }
+     .get{
+        background: #14394c;
+  }
+}
+@media screen and (min-width:1000px) {
+    .Yes{
+        margin-top: -80px;
+       }
+      .Mission{
+        width: 33%;
+      }
+       .started{
+        padding-top: 200px;
+      }
+      .span{
+        margin-left: auto;
+      }
+      .size{
+        display: flex;
+      }
+      .weight{
+        width: 40%;
+        margin-top: 15%;
+      }
+       .san{
+        width: 794px;
+       }
+       .view{
+        margin-left: auto;
+       }
+       .Capture{
+        background-position-y: 50%;
+        background: #14394c;
+        border-radius: 10px;
+        height: 400px;
+     }
+     .data1{
+        margin-left: 40%;
+     }
+     .data2{
+        margin-left: 53.5%;
+     }
+     .data3{
+        margin-left: 20.5%;
+     }
+     .data4{
+        margin-left: 60.6%;
+     }
+
+   .ask{
+    text-align: center;
+   }
+   .you{
+    text-align: center;
+   }
+}
+.get{
+    background: #14394c;
+    
+}
+@media screen and (min-width:1501px) {
+  .data{
+    width: 10px;
+height: 5px;
+top: 13px;
+}
+.block{
+  justify-content: center;
+  display: flex;
+}
+.to{
+  font-family: Lora;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0px;
+  text-align: left; 
+}
+ .way{
+        font-family: Open Sans;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+    .get{
+      width: 100vw;
+    }
+}
