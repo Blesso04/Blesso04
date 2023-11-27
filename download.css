@@ -1,0 +1,47 @@
+@media screen and (min-width:1000px) {
+    .make{
+        margin-top: 60px;
+        width: 45%;
+        
+    }
+    .make1{
+        margin-top: 60px;
+        width: 45%;
+    }
+    .are{
+        display: flex;
+    }
+    .leap{
+        width: 80%;
+    }
+    .sure{
+        display: flex;
+    }
+    .device{
+        border-radius: 16px;
+    }
+    .kind2{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    #kind{
+        display: none;
+    }
+    .make1{
+       margin-top: 5%;
+    }
+    
+}
+    @media screen and (max-width:999px) and (min-width:601px) {
+      .kind2{
+        display: none;
+      }  
+    }
+.frame{
+    text-align: center;
+}
+.center{
+    display: inline-block;
+}
