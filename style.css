@@ -1,0 +1,754 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sec1{
+    background-color: #FFF9F2;
+}
+@media screen and (max-width:1500px) {
+    .house{
+        padding-top: 100px;
+    }
+    .change{
+      width: 100%;
+      justify-content: center;
+    }
+    .create{
+        font-family: Lora;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+    .to{
+        font-family: Lora;
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 52px;
+        letter-spacing: 0px;
+        text-align: left; 
+    }
+    .Capture{
+        background-position-y: 50%;
+        background: #14394c;
+        border-radius: 10px;
+     }
+    .way{
+        font-family: Open Sans;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+    .various{
+        background-color: white;
+        border-top: 4px solid #6d1830;
+        border-right: 4px solid #6d1830;
+        border-radius: 15px;
+        
+     }
+     .our{
+      background-color: #6d1830;
+      width: 100%;
+   }
+     .select{
+      padding-left: 15px;
+      padding-top: 10px;
+      border-radius: 10px;
+      border-top: 2px solid  rgba(215, 209, 202, 1);
+      border-bottom: 2px solid  rgba(215, 209, 202, 1);
+      border-left: 1px solid  rgba(215, 209, 202, 1);
+      border-right: 1px solid  rgba(215, 209, 202, 1);
+   }
+   
+     .get{
+         background: #14394c;
+        width: 100%;
+   }
+     .work{
+        background-color: white;
+        border-top: 4px solid hsl(343, 64%, 26%);
+        border-right: 4px solid #6d1830;
+        border-radius: 15px;
+        padding: 25px;
+        width: 48%;
+ }
+ .clients{
+  font-family: Lora;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0px;
+ }
+
+ .feature{
+    font-family: Lora;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0px;
+    margin-top: 50px;
+ }
+}
+@media screen and (min-width:1000px) {
+    .Download{
+        display: flex;
+     }
+     .select{
+      width: 488px;
+      height: 135px;
+     }
+     .private{
+      width: 45%;
+     }
+     .Simple{
+      display: flex;
+     }
+     .time{
+      font-size: 23px;
+     }
+     .used{
+      width: 48%;
+     }
+     .industry{
+      font-size: 24px;
+     }
+     .game{
+      margin-left: 5%;
+      height: 312px;
+     }
+     .our{
+      display: flex;
+      padding-top: 55px;padding-left: 75px;padding-bottom: 50px;
+     }
+    
+     .estate{
+      width: 184px;
+      height: 184px;
+     }
+     .enhance{
+      display: flex;
+     }
+     .Yes{
+      margin-top: -80px;
+     }
+     .various{
+        background-color: white;
+        border-top: 4px solid #6d1830;
+        border-right: 4px solid #6d1830;
+        border-radius: 15px;
+        padding: 50px;
+        justify-content: center;
+     }
+     .Capture{
+      background-position-y: 50%;
+      background: #14394c;
+      border-radius: 10px;
+      height: 400px;
+   }
+     .work{
+        background-color: white;
+        border-top: 4px solid hsl(343, 64%, 26%);
+        border-right: 4px solid #6d1830;
+        border-radius: 15px;
+        padding: 25px;
+        width: 48%;
+     }
+     .best{
+      height: 287px;
+     }
+    .easy{
+      height: 312px;
+    }
+     .feature{
+      text-align: center;
+     }
+     .clients{
+      text-align: center;
+     }
+     .and{
+        justify-content: center;
+     }
+     
+     .brand{
+        padding-left: 75px;
+     }
+     .your{
+        padding-top: 200px;
+       }
+       .started{
+        padding-top: 200px;
+      }
+   .to{
+      width: 100%;
+   }
+   .way{
+    width: 90%;
+   }
+   .Email{
+    width: 420px;
+   }
+   .form{
+    display: flex;
+   }
+   .about{
+    padding-left: 2%;
+   }
+   .blog{
+    padding-left: 18%;
+   }
+   .img2{
+    margin-top: 15%;
+   }
+  .img3{
+    margin-top: -3%;
+  }
+   .Google{
+    margin-left: 57%;
+   }
+   .group{
+    display: flex;
+   }
+   .contact{
+    display: flex;
+   }
+   .image{
+    margin-left: 15%;
+   }
+   .term{
+    margin-left: auto;
+   }
+   .Social{
+    margin-left: 5%;
+   }
+   .visual{
+    width: 305px;
+    height: fit-content;
+   }
+   .decor{
+    gap: 20px;
+   }
+ }
+ @media screen and (max-width:600px)  {
+    .brand{
+        padding-left: 10px;
+    }
+    .select{
+      height: 172px;
+    }
+    .Simple{
+      display: block;
+    }
+    .sense{
+      width: 89%;
+    }
+    .enhance{
+      display: block;
+    }
+    .img1{
+      margin-top: -8%;
+      width: 106.91px;
+height: 111.62px;
+    }
+    .img2{
+      width: 143.07px;
+height: 88.83px;
+top: 55.45px;
+left: 161.15px;
+border-radius: 7.86px;
+margin-top: 10%;
+    }
+    .img3{
+      margin-top: -10%;
+      width: 91.19px;
+height: 113.98px;
+top: 30.29px;
+left: 18.87px;
+
+    }
+    .img4{
+      width: 92.11px;
+height: 109.27px;
+top: 34.59px;
+left: 179.23px;
+margin-top: -5%;
+    }
+    .group{
+      display: block;
+      padding-left: 10%;
+    }
+    .term{
+      padding-top: 5%;
+    }
+    .Google{
+      padding-left: 10%;
+    }
+    .industry{
+      font-size: 20px;
+    }
+    .image{
+      margin-left: 10%;
+    }
+    .form{
+      display: block;
+    }
+    .button2{
+      padding-top: 5%;
+    }
+    .Email{
+      width: 280px;
+    }
+    .contact{
+      display: block;
+    }
+    .best{
+      height: fit-content;
+    }
+    .game{
+      height: fit-content;
+    }
+    .easy{
+      height: fit-content;
+    }
+    .change{
+      padding-left: 8%;
+    }
+    .option{
+      margin-top: 10%;
+    }
+    .our{
+      display: block;
+      padding-top: 10%;
+      padding-bottom: 10%;
+      padding-left: 6%;
+      padding-right: 6%;
+    }
+    .App{
+      padding-left: 15px;
+      padding-top: 10px;
+      border-radius: 10px;
+      border-top: 2px solid  rgba(215, 209, 202, 1);
+      border-bottom: 2px solid  rgba(215, 209, 202, 1);
+      border-left: 1px solid  rgba(215, 209, 202, 1);
+      border-right: 1px solid  rgba(215, 209, 202, 1);
+   }
+   .APP1{
+     margin-top: 50px;
+   }
+    .realImg{
+      display: flex;
+      justify-content: center;
+    }
+    .today{
+      text-align: center;
+    }
+    .button1{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 8%;
+    }
+    .decor{
+      gap: 12px;
+    }
+    .interact{
+      text-align: center;
+    }
+    .started{
+      padding-top: 50px;
+    }
+    .get{
+      width: 100%;
+    }
+    .estate{
+      width: 144.64px;
+      height: 144.64px;
+    }
+    .Yes{
+        display: flex;
+        justify-self: center;
+        margin-top: 120px;
+      }
+    .button{
+        margin-left: 135px;
+        width: 39%;
+      }
+    .Rating{
+      align-content: center;
+      }
+      .now{
+       text-align: center;
+       
+      }
+      .white{
+        width: 60%;
+      }
+    .Download{
+        align-items: center;
+    }
+    .to{
+        text-align: center;
+    }
+    .way{
+        text-align: center;
+    }
+    .and{
+        width: 90%;
+      }
+      .work{
+        background-color: white;
+        border-top: 4px solid #6d1830;
+        border-right: 4px solid #6d1830;
+        border-radius: 15px;
+        padding: 25px;
+        width: 100%;
+     }
+    .your{
+        padding-top: 50px;
+        
+       }
+       .house{
+           padding-top: 0px;
+       }
+       .various{
+        background-color: white;
+        border-top: 4px solid #6d1830;
+        border-right: 4px solid #6d1830;
+        border-radius: 15px;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-left: 5%;
+     }
+     .cont{
+        overflow: hidden;
+      }
+      .NeRF{
+        text-align: center;
+      }
+      .create{
+        text-align: center;
+      }
+      .buttonNERF{
+       justify-content: center;
+       display: flex;
+      }
+      .Rating{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+      }
+      .Capture{
+        background-position-y: 50%;
+        background: #14394c;
+        border-radius: 10px;
+        height: 766px;
+     }
+     .feature{
+      padding-left: 5%;
+      padding-right: 8%;
+     }
+     .clients{
+      padding-left: 5%;
+      padding-right: 5%;
+     }
+     .private{
+      margin-top: 5%;
+     }
+ }
+ .Icon{
+    width: 14px;
+    
+}
+.View h2{
+font-family: Lora;
+font-size: 32px;
+font-weight: 600;
+line-height: 40px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+view h4{
+font-family: Lora;
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+view p{
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-align: left;
+
+}
+.get{
+     background: #14394c;
+     
+}
+@media screen and (max-width:999px) and (min-width:768px){
+  .Yes{
+    margin-top: -80px;
+   }
+   .your{
+    padding-top: 100px;
+   }
+   .private{
+    margin-top: 5%;
+   }
+   .select{
+    height: 172px;
+  }
+   .make1{
+    margin-top: 5%;
+  }
+   .family{
+    width: 55%;
+   }
+   .span{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+   }
+   .color{
+    display: flex;
+    justify-content: center;
+ }
+   .form{
+    display: block;
+  }
+  .button2{
+    padding-top: 5%;
+  }
+  .Email{
+    width: 280px;
+  }
+   .our{
+    display: flex;
+   }
+   .data1{
+    margin-left: auto
+ }
+ .data2{
+    margin-left: auto;
+ }
+ .data3{
+    margin-left: auto;
+ }
+ .data4{
+    margin-left: auto;
+ }
+   .contact{
+    display: flex;
+   }
+   .Google{
+    margin-left: auto;
+   }
+   .group{
+    display: flex;
+   }
+   .term{
+    margin-left: auto;
+   }
+   .Capture{
+    background-position-y: 50%;
+    background: #14394c;
+    border-radius: 10px;
+    height: 400px;
+ }
+ .started{
+  padding-top: 100px;
+}
+
+.Article{
+  border: 2px solid #e1ddd7;
+border-radius: 10px;
+width: 75%;
+padding: 1%;
+margin-left: 9%;
+}
+.Medium{
+  padding-top: 20%;
+}
+.max{
+  display: none;
+}
+.relate{
+  display: flex;
+}
+.sales{
+  margin-top: 5%;
+}
+.block{
+  text-align: center;
+}
+}
+@media screen and (max-width:767px) and (min-width:601px) {
+  .cont{
+    overflow: hidden;
+  }
+  .Rating{
+    align-content: center;
+    
+    }
+    .now{
+     text-align: center;
+     
+    }
+    .white{
+      width: 60%;
+    }
+  .work{
+    background-color: white;
+    border-top: 4px solid #6d1830;
+    border-right: 4px solid #6d1830;
+    border-radius: 15px;
+    padding: 25px;
+    width: 100%;
+ }
+  .private{
+    margin-top: 5%;
+   }
+  .select{
+    height: 172px;
+  }
+  .block{
+    text-align: center;
+  }
+  .sales{
+    margin-top: 5%;
+  }
+  .relate{
+    display: flex;
+  }
+  .make1{
+    margin-top: 5%;
+  }
+  .Article{
+    border: 2px solid #e1ddd7;
+border-radius: 10px;
+width: 90%;
+padding-left: 4%;
+padding-top: 5%;
+margin-left: 5%;
+}
+.Medium{
+  display: block;
+  width: 95%;
+  padding-bottom: 5%;
+}
+.max{
+  display: none;
+}
+  .view{
+    display: none;
+  }
+  .form{
+    display: block;
+  }
+  .span{
+    justify-content: space-between;
+   }
+  .button2{
+    padding-top: 5%;
+  }
+  .Email{
+    width: 280px;
+  }
+  .data1{
+    margin-left: 40%;
+ }
+ .Mission{
+  text-align: center;
+ }
+ .data2{
+    margin-left: 53.5%;
+ }
+ .data3{
+    margin-left: 20.5%;
+ }
+ .data4{
+    margin-left: 60.6%;
+ }
+  .our{
+    display: flex;
+  }
+  .today{
+    text-align: center;
+  }
+  .interact{
+    text-align: center;
+  }
+  .started{
+    padding-top: 50px;
+  }
+ 
+  .get{
+    width: 100%;
+  }
+  .button1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8%;
+  }
+  .NeRF{
+    text-align: center;
+  }
+  .create{
+    text-align: center;
+  }
+  .buttonNERF{
+   justify-content: center;
+   display: flex;
+  }
+  .contact{
+    display: flex;
+  }
+  .Google{
+    margin-left: auto;
+   }
+   .group{
+    display: flex;
+   }
+   .term{
+    margin-left: auto;
+   }
+  .Capture{
+    background-position-y: 50%;
+    background: #14394c;
+    border-radius: 10px;
+    height: 766px;
+ }
+ .Yes{
+  display: flex;
+  justify-self: center;
+  margin-top: 120px;
+}
+}
+.select{
+  padding-left: 15px;
+  padding-top: 10px;
+  border-radius: 10px;
+  border-top: 2px solid  rgba(215, 209, 202, 1);
+  border-bottom: 2px solid  rgba(215, 209, 202, 1);
+  border-left: 1px solid  rgba(215, 209, 202, 1);
+  border-right: 1px solid  rgba(215, 209, 202, 1);
+}
+@media screen and (min-width:1500px) {
+  .change{
+    justify-content: center;
+  }
+  .our{
+    display: flex;
+  }
+}
+
+
+ 
