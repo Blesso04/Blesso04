@@ -85,7 +85,8 @@
                            <input class="ps-3 input" type="email" name=""  id="" placeholder="Enter your full name" style=" border-radius: 4px;border: 1px solid rgba(227, 235, 235, 1);" ></div>
                            </div><br>
                             <label for="Message">Message</label><br>
-                           <input class="ps-3 output" style="border-radius: 4px;border: 1px solid rgba(227, 235, 235, 1);" type="text" name="" id="" placeholder="Enter your message here. We can’t wait to hear from you.">
+                           <!-- <input class="ps-3 output" style="border-radius: 4px;border: 1px solid rgba(227, 235, 235, 1);" type="text" name="" id="" placeholder="Enter your message here. We can’t wait to&#10;hear from you."> -->
+                           <textarea name="" id="" cols="30" rows="10" class="ps-3 output" style="border-radius: 4px;border: 1px solid rgba(227, 235, 235, 1);padding: 15px;" placeholder="Enter your message here. We can’t wait to hear from you."></textarea>
                         </form>
                         <br>
                         <form  >
@@ -106,7 +107,7 @@
             <a href="" style="text-decoration: none;">support@viewe.com</a>
             </div>
             </div>
-            <div style="border: 2px solid #e1ddd7;border-radius: 10px;justify-content: center;" class="amet" class="sales" >
+            <div style="border: 2px solid #e1ddd7;border-radius: 10px;justify-content: center;" class="amet " id="sales" >
               <div class=" pt-5  pb-5" style="width: 80%;text-align: center;"  >
               <img src="img/Frame 40566.png" alt="" class="img-fluid" >
                 <h2>Sales & Enquiries</h2>
@@ -114,7 +115,7 @@
                 <a href="" style="text-decoration: none;">sales@viewe.com</a>
                 </div>
             </div>
-            <div style="border: 2px solid #e1ddd7;border-radius: 10px;justify-content: center;" class="amet"  class="sales">
+            <div style="border: 2px solid #e1ddd7;border-radius: 10px;justify-content: center;" class="amet"  id="sales">
               <div class=" pt-5  pb-5" style="width: 80%;text-align: center;"  >
               <img src="img/Frame 40566.png" alt="" class="img-fluid" >
                 <h2>Media & Press</h2>
@@ -124,43 +125,67 @@
             </div>
           </div>
         </nav>
-        <nav class="mark sec1">`
+        <nav  class="cord">
           <div style="padding-top: 100px;" class="container">
             <h1 class="ask">Frequently Asked Questions</h1>
-            <p class="you">Everything you need to know about the ViewE applcation</p>
+          <p class="you">Everything you need to know about the ViewE applcation</p>
           </div>
-          <center><div class="div" >
-            <div  class="need san">
-              <div class="d-flex">
+        <div class="accordion div" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item" >
+            <h2 class="accordion-header" >
+              <button class="accordion-button" style="background-color: #fff9f2;border: none;color: black;box-shadow: none;" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
                 <h3  class="font" style="font-family: Open Sans;font-size: 22px;font-weight: 600;line-height: 28px;letter-spacing: 0px;text-align: left;">Is the application compatable with other devices?</h3>
-                <img src="img/Icon (4).png" alt="" class="img-fluid data mt-3 data1" >
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+              <div class="accordion-body">
+                <p>The VieW application is compatible with different devices and can be used on your laptop, tablest  and mobile phones with ease.</p>
               </div>
-              <p  style="font-family: Open Sans;font-size: 16px;font-weight: 400;line-height: 24px;letter-spacing: 0.5px;text-align: left;width: 90%;margin-right: 10%;">The VieW application is compatible with different devices and can be used on your laptop, tablest and mobile phones with ease.</p>
-              <hr class="san">
             </div>
-            <div class="san">
-              <div class="d-flex">
-                <h3 class="mb-3 mt-3 font" style="font-family: Open Sans;font-size: 22px;font-weight: 600;line-height: 28px;letter-spacing: 0px;text-align: left;">How safe is my data on this platform?</h3>
-                <img src="img/Icon (5).png" alt="" class="img-fluid data mt-3 data2" >
+          </div>
+          <hr>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                <h3 class=" font" style="font-family: Open Sans;font-size: 22px;font-weight: 600;line-height: 28px;letter-spacing: 0px;text-align: left;">How safe is my data on this platform?</h3>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+              <div class="accordion-body">
+          
               </div>
-              <hr class="san">
             </div>
-            <div class="san">
-              <div class="d-flex">
-                <h3 class="mb-3 mt-3 font" style="font-family: Open Sans;font-size: 22px;font-weight: 600;line-height: 28px;letter-spacing: 0px;text-align: left;">Can I get help if I run into a problem while using the application?</h3>
-                <img src="img/Icon (5).png" alt="" class="img-fluid data mt-3 data3" >
+          </div>
+          <hr>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed " type="button"  data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                <h3 class="font" style="font-family: Open Sans;font-size: 22px;font-weight: 600;line-height: 28px;letter-spacing: 0px;text-align: left;">Can I get help if I run into a problem while using the application?</h3>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                
               </div>
-              <hr class="san">
             </div>
-            <div class="san">
-              <div class="d-flex">
-                <h3 class="mb-3 mt-3 font" style="font-family: Open Sans;font-size: 22px;font-weight: 600;line-height: 28px;letter-spacing: 0px;text-align: left;">Do I pay to use the application?</h3>
-                <img src="img/Icon (5).png" alt="" class="img-fluid data mt-3 data4" >
+          </div>
+          <hr>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed " type="button"  data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapsefour">
+                <h3 class="font"  style="font-family: Open Sans;font-size: 22px;font-weight: 600;line-height: 28px;letter-spacing: 0px;text-align: left;">Do I pay to use the application?</h3>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                
               </div>
-              <hr class="san">
             </div>
-          </div></center>
-          </nav>
+          </div>
+          <hr >
+        </div>
+        
+      </nav>
           <div class="container pt-5">
             <hr>
           </div>
